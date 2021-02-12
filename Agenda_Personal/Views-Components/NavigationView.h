@@ -22,7 +22,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property IBOutletCollection(NSLayoutConstraint)NSArray*portraitConstraints;
 -(void)changeStateWithString:(NSString*)stringOption;
 -(void)setupLandscapeConstraints;
--(void)setupTittlesOfButtons;
+//-(void)setupTittlesOfButtons;
 - (IBAction)projectsDisplayerButton:(id)sender;
 - (IBAction)practicesDisplayerButton:(id)sender;
 - (IBAction)examsDisplayerButton:(id)sender;

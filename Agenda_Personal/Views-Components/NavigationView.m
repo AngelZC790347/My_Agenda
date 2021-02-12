@@ -12,7 +12,7 @@
 @implementation NavigationView{
     UIButton*tempTaskButtons;
 }
--(void)setupTittlesOfButtons{
+/*-(void)setupTittlesOfButtons{
     NSString*localString;
     localString=NSLocalizedStringWithDefaultValue(@"ExamsButton", nil, [NSBundle mainBundle], @"Exams", @"Button for display exams");
     [self.examsButton setTitle:localString forState:UIControlStateNormal];
@@ -22,7 +22,7 @@
     [self.practicesButton setTitle:localString forState:UIControlStateNormal];
     localString=NSLocalizedStringWithDefaultValue(@"TasksButton", nil, [NSBundle mainBundle], @"Tasks", @"Button for display tasks");
     [self.tasksButton setTitle:localString forState:UIControlStateNormal];
-}
+}*/
 -(void)setupLandscapeConstraints{
     tempTaskButtons=self.tasksButton;
     NSDictionary*tempsViews=NSDictionaryOfVariableBindings(tempTaskButtons);

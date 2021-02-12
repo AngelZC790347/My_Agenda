@@ -79,6 +79,7 @@
                                         <rect key="frame" x="0.0" y="0.0" width="124" height="117.5"/>
                                         <color key="backgroundColor" systemColor="systemTealColor"/>
                                         <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <state key="normal" title="Exams"/>
                                         <connections>
                                             <action selector="examsDisplayerButton:" destination="rXU-8N-XZw" eventType="touchUpInside" id="LIk-6t-wBV"/>
                                         </connections>
@@ -87,6 +88,7 @@
                                         <rect key="frame" x="0.0" y="235" width="124" height="117.5"/>
                                         <color key="backgroundColor" systemColor="systemTealColor"/>
                                         <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <state key="normal" title="Practices"/>
                                         <connections>
                                             <action selector="practicesDisplayerButton:" destination="rXU-8N-XZw" eventType="touchUpInside" id="oir-qw-1J4"/>
                                         </connections>
@@ -95,6 +97,7 @@
                                         <rect key="frame" x="0.0" y="352.5" width="124" height="117.5"/>
                                         <color key="backgroundColor" systemColor="systemTealColor"/>
                                         <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <state key="normal" title="Tasks"/>
                                         <connections>
                                             <action selector="tasksDisplayerButton:" destination="rXU-8N-XZw" eventType="touchUpInside" id="yoZ-FE-wSE"/>
                                         </connections>
@@ -103,6 +106,7 @@
                                         <rect key="frame" x="0.0" y="117.5" width="124" height="117.5"/>
                                         <color key="backgroundColor" systemColor="systemTealColor"/>
                                         <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="Projects"/>
                                         <connections>
                                             <action selector="projectsDisplayerButton:" destination="rXU-8N-XZw" eventType="touchUpInside" id="Opi-Zp-pII"/>
                                         </connections>
