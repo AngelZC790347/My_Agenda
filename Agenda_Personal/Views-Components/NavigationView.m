@@ -12,6 +12,7 @@
 @implementation NavigationView{
     UIButton*tempTaskButtons;
 }
+//use to initializad the tittle buttons
 /*-(void)setupTittlesOfButtons{
     NSString*localString;
     localString=NSLocalizedStringWithDefaultValue(@"ExamsButton", nil, [NSBundle mainBundle], @"Exams", @"Button for display exams");
