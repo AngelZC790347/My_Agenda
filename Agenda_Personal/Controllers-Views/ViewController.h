@@ -7,7 +7,7 @@
 
 #import <UIKit/UIKit.h>
 #import <UIKit/UIKit.h>
-#import "./Protocols/ChangedStateProtocol.h"
+#import "../Protocols/ChangedStateProtocol.h"
 @class HeadView;
 @class NavigationView;
 @class TableFromStepSourceView;

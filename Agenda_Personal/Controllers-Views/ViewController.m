@@ -7,10 +7,10 @@
 
 
 #import "ViewController.h"
-#import "./Sources-Classes/Usuario.h"
-#import "./Views-Components/HeadView.h"
-#import "./Views-Components/TableFromStepSourceView.h"
-#import "./Views-Components/NavigationView.h"
+#import "../Sources-Classes/Usuario.h"
+#import "../Views-Components/HeadView.h"
+#import "../Views-Components/TableFromStepSourceView.h"
+#import "../Views-Components/NavigationView.h"
 @interface ViewController ()
 
 @end
@@ -22,14 +22,14 @@
 }
 -(void)viewDidLoad{
     [super viewDidLoad];
-   // [self.navigatiobarMainView setupTittlesOfButtons];
-    currentUser=[[Usuario alloc]initWithName:@"Angel Zuñiga" Password:@"agzc9806545202" Email:@"angel1200z@hotmail.com" Age:21];
+    //[self.navigatiobarMainView setupTittlesOfButtons];
+    //currentUser=[[Usuario alloc]initWithName:@"Angel Zuñiga" Password:@"agzc9806545202" Email:@"angel1200z@hotmail.com" Age:21];
     isShowingPortrait=self.traitCollection.verticalSizeClass==UIUserInterfaceSizeClassRegular;//Var to indicate the position of the view
     tempNavbarView=self.navigatiobarMainView;
     self.tableMainView.delegateSteps=self.navigatiobarMainView;
     self.navigatiobarMainView.changed=false;//Firstly the User dons change the state Of The navigationView(None button was clicked)
     self.navigatiobarMainView.delegate=self;//pointer this view as delegade from navigationView
-    //[self.headerMainView updateInfoWithName:currentUser.usrName TittleString:NSLocalizedStringWithDefaultValue(@"TittleModifyLabel", nil, [NSBundle mainBundle], @"My Agenda",@"English Tittle Label Value")];
+    [self.headerMainView updateInfoWithName:currentUser.usrName];
     [self updateTableView];
     //Init the setupCostraint
     [self setupLandscapeContraints];
@@ -44,7 +44,7 @@
 }
 -(void)setupLandscapeContraints{
     NSDictionary*tempsViews=NSDictionaryOfVariableBindings(tempNavbarView);
-    rootViewLandscapeConstraints=[NSLayoutConstraint constraintsWithVisualFormat:@"V:[tempNavbarView]-0-|" options:0 metrics:nil views:tempsViews];
+    rootViewLandscapeConstraints=[NSLayoutConstraint constraintsWithVisualFormat:@"V:[tempNavbarView]-5-|" options:0 metrics:nil views:tempsViews];
 }
 -(void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:animated];

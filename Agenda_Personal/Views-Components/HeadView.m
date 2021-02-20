@@ -7,8 +7,8 @@
 
 #import "HeadView.h"
 @implementation HeadView
--(void)updateInfoWithName:(NSString*)nameString TittleString:(NSString *)tittleString{
+-(void)updateInfoWithName:(nonnull NSString*)nameString{
     self.userNameLabel.text=[nameString copy];
-    self.tittleFromThisViewLabel.text=[tittleString copy];
+    
 }
 @end

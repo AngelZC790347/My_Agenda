@@ -12,6 +12,6 @@ NS_ASSUME_NONNULL_BEGIN
 @interface HeadView : UIView
 @property (weak,nonatomic)IBOutlet UILabel*tittleFromThisViewLabel;
 @property (weak,nonatomic)IBOutlet UILabel*userNameLabel;
--(void)updateInfoWithName:(NSString*)nameString TittleString:(NSString*)tittleString;
+-(void)updateInfoWithName:(nonnull NSString*)nameString;
 @end
 NS_ASSUME_NONNULL_END
